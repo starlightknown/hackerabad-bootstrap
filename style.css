@@ -1,7 +1,6 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: rgb(228, 196, 14);
 }
 html {
   width: 100%;
@@ -27,27 +26,27 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 .intro-section {
-  height: 100%;
-  width: 100%;
-  padding-top: 150px;
+  height: 80%;
+  padding-top: 180px;
   text-align: center;
   background-color: rgb(228, 196, 14);
+  overflow: hidden;
 }
 .about-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 60px;
   text-align: center;
   background: #eee;
 }
 .services-section {
   height: 100%;
-  padding-top: 100px;
+  padding-top: 60px;
   text-align: center;
   background: #fff;
 }
 .contact-section {
-  height: 100%;
-  padding-top: 150px;
+  height: 160%;
+  padding-top: 60px;
   text-align: center;
   background: #eee;
 }
@@ -75,6 +74,7 @@ of those sections to manage the look and feel of the site. */
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
+  border-radius: 12px;
   line-height: 32px;
   /* identical to box height, or 200% */
   
@@ -157,7 +157,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .square {
-  width: 100%;
+  width: 80%;
   padding-bottom: 100%;
   background-size: cover;
   background-position: center;
@@ -181,8 +181,6 @@ font-size: 16px;
 line-height: 32px;
 /* identical to box height, or 200% */
 text-align: center;
+border-radius: 12px;
 }
 
-.navbar navbar-default navbar-transparent py-3 {
-  color: #FFF;
-}

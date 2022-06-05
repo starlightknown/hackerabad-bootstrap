@@ -155,3 +155,30 @@ of those sections to manage the look and feel of the site. */
   margin: 15px;
   vertical-align: top;
 }
+
+.square {
+  width: 100%;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.socials{
+  margin-top: 40px;
+  text-align: center;
+}
+.socials-btn{
+  width: 188px;
+  height: 64px;
+  background-color: black;
+  color: rgb(229, 226, 226);
+  
+  cursor: pointer;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+text-align: center;
+}

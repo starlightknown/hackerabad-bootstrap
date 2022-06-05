@@ -182,3 +182,7 @@ line-height: 32px;
 /* identical to box height, or 200% */
 text-align: center;
 }
+
+.nav navbar-nav navbar-right {
+  color: white;
+}
